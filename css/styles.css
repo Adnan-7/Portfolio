@@ -486,6 +486,19 @@ Services
 .service:hover .underline {
   background: var(--clr-white);
 }
+
+@media screen and (min-width: 667px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 /* small screen layout setup */
 
 /*
